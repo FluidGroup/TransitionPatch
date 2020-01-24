@@ -1,5 +1,6 @@
 
-import Foundation
+#if canImport(UIKit)
+import UIKit
 
 public protocol PatchType {
   associatedtype Value
@@ -88,4 +89,4 @@ public struct VectorPatch: PatchType {
     return sqrt(pow(value.dx, 2) + pow(value.dy, 2))
   }
 }
-
+#endif
