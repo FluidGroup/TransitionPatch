@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "TransitionPatch"
-    s.version      = "1.0.4"
+    s.version      = "1.0.5"
     s.summary      = "A micro framework to calculate value for transition."
     s.description  = <<-DESC
     A micro-framework to calculate a value for the transition.
