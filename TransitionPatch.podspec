@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "TransitionPatch"
-    s.version      = "1.0.3"
+    s.version      = "1.0.4"
     s.summary      = "A micro framework to calculate value for transition."
     s.description  = <<-DESC
     A micro-framework to calculate a value for the transition.
@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/muukii/TransitionPatch"
   
     s.frameworks = ['Foundation']
+    s.swift_versions = ["5.3", "5.4", "5.5"]
   end
   
